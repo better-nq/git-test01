@@ -28,5 +28,6 @@ public interface CustomerRepository extends JpaRepository<Customer,Long>,JpaSpec
     public void updateCustomer(String custName,Long custId);
 
     public Customer findByCustNameAndCustId(String s, long l);
-
+    
+    public void test();
 }
